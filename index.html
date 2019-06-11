@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yandex Translate API</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="translate-form">
+        <h1>Türkçe Kelime Çevir</h1>
+        <form>
+            <div class="form-group">
+                <textarea id="word" rows="5" placeholder="Çevirmek istediğiniz metin veya kelime."></textarea>
+            </div>
+            <div class="form-group">
+                <select id="languages">
+                    <option value="ar">Arapça</option>
+                    <option value="de">Almanca</option>
+                    <option value="en" selected>İngilizce</option>
+                    <option value="es">İspanyolca</option>
+                    <option value="fr">Fransızca</option>
+                    <option value="it">İtalyanca</option>
+                    <option value="ja">Japonca</option>
+                    <option value="ru">Rusca</option>
+                    <option value="zh">Çince</option>
+                </select>
+            </div>
+        </form>
+
+        <hr>
+
+        <div class="country">
+            <img src="assets/country/en.svg" alt="İngilizce" title="İngilizce" id="countrySvg">
+            <h2 id="countryText">İngilizce</h2>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="word">
+            <p><strong>Çevirilen Kelime:</strong> <span id="translateWord"></span></p>
+        </div>
+
+        <hr>
+
+    </div>
+    
+
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/translate.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
