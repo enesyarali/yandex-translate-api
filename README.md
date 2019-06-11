@@ -7,7 +7,7 @@ You can translate Turkish text and words through Yandex Translate API.
 
 # Usage
 
-1- keys Create yourselves an API key at https://translate.yandex.com/developers/ <br>
+1- Keys create yourselves an API key at https://translate.yandex.com/developers/ <br>
 2- Add the key you created to the "API KEY" field in the "assets / js / translate.js" file. <br>
 
 Now ready to use!
