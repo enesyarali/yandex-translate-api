@@ -1,6 +1,6 @@
 function Translate(word, language) {
 
-    this.apikey = "trnsl.1.1.20190611T130742Z.fbb171db536d5842.5a6114b59bf32fb366245fcc2cc3dca82b885c30";
+    this.apikey = "API KEY";
     this.word = word;
     this.languages = language;
 
