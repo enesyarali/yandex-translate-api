@@ -1,13 +1,13 @@
-# Yandex Translate API - Türkçe Çeviri
+# Yandex Translate API - Turkish Translation 
 
-Yandex Translate API aracılığıyla Türkçe metin ve kelimelerinizi çevirebilirsiniz!
+You can translate Turkish text and words through Yandex Translate API.
 
 ![Screenshot](https://repository-images.githubusercontent.com/191400958/1bfde180-8c7b-11e9-9a51-9f14fc6753af)
 
 
-# Kullanımı
+# Usage
 
-1- https://translate.yandex.com/developers/keys adresinden kendinize bir api key oluşturun.<br>
-2- Oluşturduğunuz keyi "assets/js/translate.js" dosyasında yer alan "API KEY" alanına ekleyin.
+1- keys Create yourselves an API key at https://translate.yandex.com/developers/ <br>
+2- Add the key you created to the "API KEY" field in the "assets / js / translate.js" file. <br>
 
-Artık kullanıma hazır!
+Now ready to use!
