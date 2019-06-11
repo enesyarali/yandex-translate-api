@@ -2,6 +2,9 @@
 
 Yandex Translate API aracılığıyla Türkçe metin ve kelimelerinizi çevirebilirsiniz!
 
+![Screenshot](screenshot.png)
+
+
 # Kullanımı
 
 1- https://translate.yandex.com/developers/keys adresinden kendinize bir api key oluşturun.
